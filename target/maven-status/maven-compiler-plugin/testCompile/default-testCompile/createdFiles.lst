@@ -1,0 +1,6 @@
+com\fb\baseClass\BaseClass.class
+com\Facebook\hooks.class
+com\Facebook\SingleTon.class
+com\Facebook\login.class
+com\fb\runner\TestRunner.class
+cm\fb\locator\fbLocator.class

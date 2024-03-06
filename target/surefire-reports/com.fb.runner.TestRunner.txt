@@ -1,0 +1,8 @@
+-------------------------------------------------------------------------------
+Test set: com.fb.runner.TestRunner
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 13.919 s <<< FAILURE! - in com.fb.runner.TestRunner
+Login to facebook(Facebook Login)  Time elapsed: 12.604 s  <<< ERROR!
+java.lang.ExceptionInInitializerError
+Caused by: java.lang.NullPointerException: Cannot invoke "Object.equals(Object)" because "com.fb.baseClass.BaseClass.base" is null
+

@@ -1,0 +1,98 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2024-03-05T12:09:41.007Z",
+        "before": [
+          {
+            "result": {
+              "duration": 7772169000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.Facebook.hooks.launchingBrowser(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "line": 12,
+        "name": "Login to facebook",
+        "description": "",
+        "id": "facebook-login;login-to-facebook;;2",
+        "after": [
+          {
+            "result": {
+              "duration": 213277600,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.Facebook.hooks.closingBrowser(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "error_message": "java.lang.ExceptionInInitializerError\r\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\r\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)\r\n\tat java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)\r\n\tat java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)\r\n\tat java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)\r\n\tat io.cucumber.core.runtime.ObjectFactoryServiceLoader$DefaultJavaObjectFactory.cacheNewInstance(ObjectFactoryServiceLoader.java:132)\r\n\tat io.cucumber.core.runtime.ObjectFactoryServiceLoader$DefaultJavaObjectFactory.getInstance(ObjectFactoryServiceLoader.java:124)\r\n\tat io.cucumber.java.AbstractGlueDefinition.invokeMethod(AbstractGlueDefinition.java:47)\r\n\tat io.cucumber.java.JavaStepDefinition.execute(JavaStepDefinition.java:29)\r\n\tat io.cucumber.core.runner.CoreStepDefinition.execute(CoreStepDefinition.java:66)\r\n\tat io.cucumber.core.runner.PickleStepDefinitionMatch.runStep(PickleStepDefinitionMatch.java:63)\r\n\tat io.cucumber.core.runner.ExecutionMode$1.execute(ExecutionMode.java:10)\r\n\tat io.cucumber.core.runner.TestStep.executeStep(TestStep.java:92)\r\n\tat io.cucumber.core.runner.TestStep.run(TestStep.java:64)\r\n\tat io.cucumber.core.runner.PickleStepTestStep.run(PickleStepTestStep.java:51)\r\n\tat io.cucumber.core.runner.TestCase.run(TestCase.java:104)\r\n\tat io.cucumber.core.runner.Runner.runPickle(Runner.java:71)\r\n\tat io.cucumber.junit.PickleRunners$NoStepDescriptions.run(PickleRunners.java:151)\r\n\tat io.cucumber.junit.FeatureRunner.runChild(FeatureRunner.java:135)\r\n\tat io.cucumber.junit.FeatureRunner.runChild(FeatureRunner.java:27)\r\n\tat org.junit.runners.ParentRunner$4.run(ParentRunner.java:331)\r\n\tat org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:79)\r\n\tat org.junit.runners.ParentRunner.runChildren(ParentRunner.java:329)\r\n\tat org.junit.runners.ParentRunner.access$100(ParentRunner.java:66)\r\n\tat org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:293)\r\n\tat org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)\r\n\tat org.junit.runners.ParentRunner.run(ParentRunner.java:413)\r\n\tat io.cucumber.junit.Cucumber.runChild(Cucumber.java:199)\r\n\tat io.cucumber.junit.Cucumber.runChild(Cucumber.java:90)\r\n\tat org.junit.runners.ParentRunner$4.run(ParentRunner.java:331)\r\n\tat org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:79)\r\n\tat org.junit.runners.ParentRunner.runChildren(ParentRunner.java:329)\r\n\tat org.junit.runners.ParentRunner.access$100(ParentRunner.java:66)\r\n\tat org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:293)\r\n\tat io.cucumber.junit.Cucumber$RunCucumber.evaluate(Cucumber.java:234)\r\n\tat org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)\r\n\tat org.junit.runners.ParentRunner.run(ParentRunner.java:413)\r\n\tat org.eclipse.jdt.internal.junit4.runner.JUnit4TestReference.run(JUnit4TestReference.java:93)\r\n\tat org.eclipse.jdt.internal.junit.runner.TestExecution.run(TestExecution.java:40)\r\n\tat org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:529)\r\n\tat org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:756)\r\n\tat org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.run(RemoteTestRunner.java:452)\r\n\tat org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.main(RemoteTestRunner.java:210)\r\nCaused by: java.lang.NullPointerException: Cannot invoke \"Object.equals(Object)\" because \"com.fb.baseClass.BaseClass.base\" is null\r\n\tat com.fb.baseClass.BaseClass.getInstance(BaseClass.java:34)\r\n\tat com.Facebook.login.\u003cclinit\u003e(login.java:14)\r\n\t... 43 more\r\n",
+              "duration": 4987800,
+              "status": "failed"
+            },
+            "line": 5,
+            "name": "User enters email address or phone number \"3278634932\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"3278634932\"",
+                  "offset": 42
+                }
+              ],
+              "location": "com.Facebook.login.user_enters_email_aSddress_or_phone_number(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 6,
+            "name": "User enters the password \"sridhar\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"sridhar\"",
+                  "offset": 25
+                }
+              ],
+              "location": "com.Facebook.login.user_enters_the_password(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 7,
+            "name": "User clicks on login button",
+            "match": {
+              "location": "com.Facebook.login.user_clicks_on_login_button()"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Main"
+          }
+        ]
+      }
+    ],
+    "name": "Facebook Login",
+    "description": "",
+    "id": "facebook-login",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/fb.feature",
+    "tags": []
+  }
+]
